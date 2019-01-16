@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="CommonFiles">
+      <UniqueIdentifier>{648dfb2c-c623-4efd-9f74-1e24b2369635}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External">
+      <UniqueIdentifier>{9ce80a8b-4488-44b5-96e6-0f9bbecd3bc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VulkanHelperFunctions">
+      <UniqueIdentifier>{50caf2ae-061d-49ed-98a3-ca318d34c046}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{0bc8c978-b1e3-4ca1-9d84-e71a9b7c6a2b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CommonFiles\AllHelperFunctionsHeader.h">
+      <Filter>CommonFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonFiles\Common.h">
+      <Filter>CommonFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonFiles\OS.h">
+      <Filter>CommonFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonFiles\Tools.h">
+      <Filter>CommonFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonFiles\VulkanFunctions.h">
+      <Filter>CommonFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonFiles\VulkanSampleFramework.h">
+      <Filter>CommonFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="External\stb_image.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="External\tiny_obj_loader.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="External\vulkan\vk_platform.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="External\vulkan\vulkan.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="External\vulkan\vulkan_core.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="VulkanHelperFunctions\CommandBufferAndSyncFunctions.h">
+      <Filter>VulkanHelperFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="VulkanHelperFunctions\CommandRecordingAndDrawing.h">
+      <Filter>VulkanHelperFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="VulkanHelperFunctions\DescriptorSetsFunctions.h">
+      <Filter>VulkanHelperFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="VulkanHelperFunctions\GraphicsAndComputePipeFunctions.h">
+      <Filter>VulkanHelperFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="VulkanHelperFunctions\ImagePresentFunctions.h">
+      <Filter>VulkanHelperFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="VulkanHelperFunctions\InstanceAndDevice.h">
+      <Filter>VulkanHelperFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="VulkanHelperFunctions\RenderPassAndFramebufferFunctions.h">
+      <Filter>VulkanHelperFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="VulkanHelperFunctions\ResourcesAndMemoryFunctions.h">
+      <Filter>VulkanHelperFunctions</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CommonFiles\Common.cpp">
+      <Filter>CommonFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonFiles\OS.cpp">
+      <Filter>CommonFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonFiles\Tools.cpp">
+      <Filter>CommonFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonFiles\VulkanFunctions.cpp">
+      <Filter>CommonFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonFiles\VulkanSampleFramework.cpp">
+      <Filter>CommonFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="VulkanHelperFunctions\CommandBufferAndSyncFunctions.cpp">
+      <Filter>VulkanHelperFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="VulkanHelperFunctions\CommandRecordingAndDrawing.cpp">
+      <Filter>VulkanHelperFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="VulkanHelperFunctions\DescriptorSetsFunctions.cpp">
+      <Filter>VulkanHelperFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="VulkanHelperFunctions\GraphicsAndComputePipeFunctions.cpp">
+      <Filter>VulkanHelperFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="VulkanHelperFunctions\ImagepresentFunctions.cpp">
+      <Filter>VulkanHelperFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="VulkanHelperFunctions\InstanceAndDevice.cpp">
+      <Filter>VulkanHelperFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="VulkanHelperFunctions\RenderPassAndFramebufferFunctions.cpp">
+      <Filter>VulkanHelperFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="VulkanHelperFunctions\ResourcesAndMemoryFunctions.cpp">
+      <Filter>VulkanHelperFunctions</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CommonFiles\ListOfVulkanFunctions.inl">
+      <Filter>CommonFiles</Filter>
+    </None>
+    <None Include="..\TextureSample\Data\Shaders\Skybox.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\TextureSample\Data\Shaders\Skybox.vert">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
